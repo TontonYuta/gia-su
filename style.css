@@ -114,6 +114,7 @@ nav .navigation ul li a:hover
 	align-items: center;
 	text-align: center;
 	padding-top: 40px;
+	
 }
 
 #home h2
@@ -171,6 +172,34 @@ nav .navigation ul li a:hover
 	color: rgb(21, 21, 100);
 	background: #fff;
 }
+@media screen and (max-width: 768px) {
+  #home {
+    padding-top: 140px; /* tăng khoảng cách để không bị navbar che */
+    height: auto; /* không ép 100vh để tránh nội dung bị co */
+  }
+
+  #home h2 {
+    font-size: 1.5rem;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+
+  #home p {
+    width: 90%;
+    font-size: 0.95rem;
+    padding: 0 15px;
+  }
+
+  #home .btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #home a {
+    margin-bottom: 10px;
+  }
+}
+
 /*------------- Hero section styling end --------------*/
 
 
