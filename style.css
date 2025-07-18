@@ -47,7 +47,7 @@ nav
 
 nav .logo
 {
-	width: 150px;
+	width: 100px;
 	cursor: pointer;
 }
 
@@ -443,6 +443,15 @@ nav .navigation ul li a:hover
 	background: rgb(21, 21, 100);
 	color: #fff;
 }
+
+#experts .expert-box .profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
 /*------------- Experts section styling ends ----------*/
 
 
