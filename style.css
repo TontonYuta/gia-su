@@ -101,11 +101,10 @@ nav .navigation ul li a:hover
 
 
 /*------------- Hero section styling start --------------*/
-#home
-{
+#home {
 	background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5,4,46,0.7)), url("img/back.jpg");
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;  /* Cho phép dài hơn nếu cần */
 	background-size: cover;
 	background-position: center center;
 	display: flex;
@@ -113,9 +112,9 @@ nav .navigation ul li a:hover
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 40px;
-	
+	padding: 120px 20px 80px; /* Đẩy xuống tránh navbar che + padding dưới cho thoáng */
 }
+
 
 #home h2
 {
@@ -826,4 +825,7 @@ footer .copyright .pro-links i:hover
   padding: 0;
   box-sizing: border-box;
   font-family: 'Be Vietnam Pro', sans-serif;
+}
+#home {
+  padding-top: 150px;
 }
